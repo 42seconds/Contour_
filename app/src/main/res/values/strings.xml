@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contour</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Let\'s Do Money Better</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="already_have_account">Already have an account? Log in</string>
+
+    <!-- Register Step 1 -->
+    <string name="reg_step1_title">Welcome</string>
+    <string name="reg_step1_subtitle">Let\'s start with your full name.</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="step_format">Step %1$d of %2$d</string>
+    <string name="btn_continue">Continue</string>
+
+    <!-- Register Step 2 - Email -->
+    <string name="reg_step2_title">What\'s your email?</string>
+    <string name="reg_step2_subtitle">We\'ll use this to secure your account and send important updates regarding your finances.</string>
+    <string name="hint_email">name@example.com</string>
+
+    <!-- Register Step 3 - Password -->
+    <string name="reg_step3_title">Create a password</string>
+    <string name="reg_step3_subtitle">Secure your account with a strong password.</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="password_requirements">Password requirements</string>
+    <string name="req_length">At least 8 characters long</string>
+    <string name="req_uppercase">Contains an uppercase letter</string>
+    <string name="req_number">Contains a number or symbol</string>
+
+    <!-- Register Step 4 - Currency -->
+    <string name="reg_step4_title">Select base currency</string>
+    <string name="reg_step4_subtitle">This will be the primary currency used to display your total balance and transaction history.</string>
+    <string name="hint_search_currencies">Search currencies…</string>
+    <string name="btn_complete">Complete</string>
+
+    <!-- Profile Setup -->
+    <string name="profile_title">Profile setup</string>
+    <string name="profile_subtitle">Personalize your financial identity.</string>
+    <string name="select_avatar">Select an Avatar</string>
+    <string name="label_username">Username</string>
+    <string name="hint_username">your_handle</string>
+    <string name="username_helper">This is how others will see you in transactions.</string>
+    <string name="btn_save_profile">Save Profile</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Please enter your details to sign in.</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="btn_login">Login</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hello</string>
+    <string name="dashboard_subtitle">Here\'s your financial overview.</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="see_all">See All</string>
+    <string name="save_transaction">Save Transaction</string>
+    <string name="split_transaction">Split Transaction</string>
+    <string name="set_budget_goal">Set Budget Goal</string>
+    <string name="set_goal">Set Goal</string>
+</resources>

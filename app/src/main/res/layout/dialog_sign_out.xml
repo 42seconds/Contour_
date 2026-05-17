@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_rounded"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- Icon -->
+    <FrameLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_icon_circle"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="🚪"
+            android:textSize="22sp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to sign out?"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Buttons -->
+    <TextView
+        android:id="@+id/btnConfirmSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN OUT"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:letterSpacing="0.05"
+        android:gravity="center"
+        android:paddingVertical="14dp"
+        android:backgroundTint="#000000"
+        android:background="@drawable/bg_btn_green"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/btnCancelSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:letterSpacing="0.05"
+        android:gravity="center"
+        android:paddingVertical="14dp"
+        android:background="@drawable/bg_btn_outline"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif" />
+</LinearLayout>

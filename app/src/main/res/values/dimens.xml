@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_mobile">16dp</dimen>
+    <dimen name="margin_page">24dp</dimen>
+    <dimen name="corner_radius_xl">16dp</dimen>
+    <dimen name="corner_radius_lg">12dp</dimen>
+    <dimen name="corner_radius_md">8dp</dimen>
+    <dimen name="btn_height">60dp</dimen>
+    <dimen name="stack_sm">8dp</dimen>
+    <dimen name="stack_md">16dp</dimen>
+    <dimen name="stack_lg">24dp</dimen>
+    <dimen name="inset_card">20dp</dimen>
+</resources>

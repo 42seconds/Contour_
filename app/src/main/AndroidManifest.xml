@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Contour">
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.welcome.WelcomeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.register.RegisterNameActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.register.RegisterEmailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.register.RegisterPasswordActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.register.RegisterCurrencyActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.profile.ProfileSetupActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.login.LoginActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.dashboard.DashboardActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.dashboard.EditTransactionActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.dashboard.TransactionSuccessActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.search.SearchActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.budget.BudgetOverviewActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.reports.ReportsHubActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.reports.PeriodEntriesActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.reports.SpendingTrendsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.reports.CategoryBreakdownActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.profile.ProfileSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.receipt.ReceiptViewerActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.notifications.NotificationsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.empty.EmptyStateActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.skeleton.SkeletonLoadingActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.goals.GoalDetailActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.goals.GoalsListActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.camera.UploadPhotoActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.flag.FlagReportActivity" android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

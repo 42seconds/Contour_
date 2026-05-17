@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Top Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="16dp">
+
+            <ImageView
+                android:id="@+id/btnClose"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_close"
+                android:padding="8dp"
+                android:contentDescription="Close" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Scan Receipt"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/btnFlash"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_flash"
+                android:padding="8dp"
+                android:contentDescription="Flash" />
+        </LinearLayout>
+
+        <!-- Viewfinder Area -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="16dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_viewfinder" />
+
+            <!-- Corner Guides -->
+            <!-- Top Left -->
+            <View
+                android:layout_width="32dp"
+                android:layout_height="4dp"
+                android:layout_gravity="top|start"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#10B981" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="32dp"
+                android:layout_gravity="top|start"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#10B981" />
+
+            <!-- Top Right -->
+            <View
+                android:layout_width="32dp"
+                android:layout_height="4dp"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#10B981" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="32dp"
+                android:layout_gravity="top|end"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#10B981" />
+
+            <!-- Bottom Left -->
+            <View
+                android:layout_width="32dp"
+                android:layout_height="4dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#10B981" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="16dp"
+                android:background="#10B981" />
+
+            <!-- Bottom Right -->
+            <View
+                android:layout_width="32dp"
+                android:layout_height="4dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#10B981" />
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#10B981" />
+
+            <!-- Center hint -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Position receipt within frame"
+                android:textSize="14sp"
+                android:textColor="#9CA3AF" />
+        </FrameLayout>
+
+        <!-- Bottom Controls -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="40dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="48dp">
+
+                <!-- Gallery -->
+                <View
+                    android:id="@+id/btnGallery"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_gallery_thumb" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Shutter Button -->
+                <FrameLayout
+                    android:id="@+id/btnCapture"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp">
+
+                    <View
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:background="@drawable/bg_shutter_outer" />
+
+                    <View
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_shutter_inner" />
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!-- Spacer to balance gallery -->
+                <View
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to capture"
+                android:textSize="13sp"
+                android:textColor="#9CA3AF"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
