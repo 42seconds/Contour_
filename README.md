@@ -1,11 +1,7 @@
 
 
 
-<div align="center">
-
-<img src="https://github.com/user-attachments/assets/dbcda292-93cd-4895-84a6-7d073aa4ea57" width="800"/>
-
-# 💰 Contour Expense Tracker
+# Contour Expense Tracker
 
 An Android expense tracking application built with Kotlin that helps users record, organize and analyze their spending habits.
 
@@ -18,7 +14,7 @@ An Android expense tracking application built with Kotlin that helps users recor
 
 ---
 
-# 📖 Overview
+#  Overview
 
 Contour is an Android expense tracking application developed in **Kotlin**.
 
@@ -34,19 +30,19 @@ Data is stored locally using **Room Database**, allowing the application to work
 
 ---
 
-# ✨ Features
+#  Features
 
-✅ Add expenses
+- Add expenses
 
-✅ Edit expense records
+- Edit expense records
 
-✅ Attach photos
+- Attach photos
 
-✅ View total spending per category
+- View total spending per category
 
-✅ Filter by category
+- Filter by category
 
-✅ Filter by date
+- Filter by date
 
 ✅ Local offline storage
 
@@ -56,7 +52,7 @@ Data is stored locally using **Room Database**, allowing the application to work
 
 ---
 
-# 🧱 Tech Stack
+#  Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -69,7 +65,7 @@ Data is stored locally using **Room Database**, allowing the application to work
 
 ---
 
-# 🗂️ Project Structure
+#  Project Structure
 
 ```text
 app/
@@ -101,7 +97,7 @@ app/
 
 ---
 
-# 📸 Screenshots
+#  Screenshots
 
 ## Splash Screen
 
@@ -117,9 +113,9 @@ app/
 
 ---
 
-# 🎥 Demonstration Video
+#  Demonstration Video
 
-▶️ **Watch on YouTube**
+ **Watch on YouTube**
 
 [Contour Expense Tracker Demonstration](https://www.youtube.com/watch?v=10BxFu65m_8)
 
@@ -132,11 +128,11 @@ app/
 
 ---
 
-# 📱 APK Download
+#  APK Download
 
 Download and install the application:
 
-👉 [Download APK](https://github.com/42seconds/Contour/raw/main/app-debug.apk)
+ [Download APK](https://github.com/42seconds/Contour/raw/main/app-debug.apk)
 
 ### Installation Steps
 
@@ -148,7 +144,7 @@ Download and install the application:
 
 ---
 
-# 👨‍💻 Team Members
+#  Team Members
 
 | Team Member | Role |
 |-------------|------|
@@ -159,13 +155,13 @@ Download and install the application:
 
 ---
 
-# 📚 Module Information
+#  Module Information
 
 **Module:** OPSC6311 – Open Source Coding
 
 ---
 
-# 📝 Submission Notes
+#  Submission Notes
 
 - ✅ Source code hosted on GitHub
 - ✅ Screenshots included
