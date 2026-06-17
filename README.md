@@ -1,6 +1,9 @@
+
+
+
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/YOUR-GIF" width="800"/>
+<img src="https://github.com/user-attachments/assets/dbcda292-93cd-4895-84a6-7d073aa4ea57" width="800"/>
 
 # 💰 Contour Expense Tracker
 
