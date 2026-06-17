@@ -45,3 +45,6 @@ jobs:
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
+      # 7.
+      - name: Run unit tests
+        run: ./gradlew testDebugUnitTest --stacktrace
